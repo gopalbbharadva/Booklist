@@ -6,8 +6,53 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.App{
+  text-align: center;
+  margin: 5rem auto;
+}
+nav{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 30px auto;
+}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+nav ul{
+  display: flex;
+  justify-content: center;
+}
+
+li{
+  font-size: larger;
+  display: flex;
+  padding: 20px;
+  list-style-type: none;
+  display: inline-block;
+}
+.book-container{
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.book-container ul{
+  padding: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+button{
+  cursor: pointer;
+  border: 2px solid #60a5FA;
+  padding: 0.5rem;
+  font-size: larger;
+  color: #60A5FA;
+  font-weight: bold;
+  background-color: transparent;
+}
+button:hover{
+    color: white;
+    background-color: #60a5FA;
 }
