@@ -42,6 +42,9 @@ li{
   display: flex;
   flex-direction: column;
 }
+.book-container li{
+  margin: 0.2rem;
+}
 
 button{
   cursor: pointer;
