@@ -1,6 +1,6 @@
 import React, { createContext } from "react";
 
-export const themeContext = React.createContext();
+export const themeContext = createContext();
 
 class themeContextProvider extends React.Component {
   state = {
@@ -10,7 +10,7 @@ class themeContextProvider extends React.Component {
   };
 
   toggleTheme = () => {
-    this.setState({
+    this.setState({ 
       isLightTheme: !this.state.isLightTheme,
     });
   };
